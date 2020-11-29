@@ -7,7 +7,7 @@ export const ModalBG = styled.div`
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgb(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
 
   display: flex;
@@ -20,6 +20,11 @@ export const ModalDiv = styled.div`
   height: 90vh;
   width: 90vw;
   max-width: 950px;
+
+  @media only screen and (max-width: 600px) {
+    height: 80vh;
+    transform: translateY(-3vh);
+  }
 
   display: flex;
   flex-direction: column;
@@ -44,7 +49,7 @@ export const ModalDiv = styled.div`
 export const ModalDivImage = styled.div`
   height: 70%;
   width: 100%;
-  background-color: rgb(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.25);
 
   display: flex;
   justify-content: center;
@@ -95,7 +100,7 @@ export const MotionCardExit = styled(motion.h1)`
 export const MotionImageOverlay = styled(motion.div)`
   width: 100%;
   height: 100%;
-  background-color: rgb(126, 166, 156, 0.8);
+  background-color: rgba(126, 166, 156, 0.8);
   opacity: 0;
   position: absolute;
   cursor: pointer;

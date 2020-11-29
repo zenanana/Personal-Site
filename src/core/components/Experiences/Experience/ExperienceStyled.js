@@ -49,7 +49,7 @@ export const MotionCardDes = styled(motion.div)`
   text-align: justify;
   font-family: inherit;
 
-  background: rgb(126, 166, 156, 0.8);
+  background: rgba(126, 166, 156, 0.8);
 
   position: absolute;
   width: 100%;
@@ -57,7 +57,7 @@ export const MotionCardDes = styled(motion.div)`
   margin: 0px;
   padding: 0px;
 
-  overflow: scroll;
+  overflow: none;
   ::-webkit-scrollbar {
     display: none;
   }

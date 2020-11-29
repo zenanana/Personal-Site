@@ -24,9 +24,6 @@ const Contact = (props) => {
     xhr.onreadystatechange = () => {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
-        setEmail("");
-        setTitle("");
-        setMessage("");
         setFormStatus("Success!");
       } else {
         setFormStatus("Error!");
@@ -83,7 +80,11 @@ const Contact = (props) => {
             <br></br>
 
             {formStatus === "" ? (
-              <Styled.SubmitInput type="submit" disabled={submitDisabled} />
+              <Styled.SubmitInput
+                type="submit"
+                value="Submit"
+                disabled={submitDisabled}
+              />
             ) : (
               <Styled.StatusButton
                 style={{
