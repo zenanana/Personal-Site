@@ -6,7 +6,7 @@ export const ModalBG = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
 
@@ -17,13 +17,12 @@ export const ModalBG = styled.div`
 
 export const ModalDiv = styled.div`
   background-color: white;
-  height: 90vh;
-  width: 90vw;
+  height: 90%;
+  width: 90%;
   max-width: 950px;
 
   @media only screen and (max-width: 600px) {
-    height: 80vh;
-    transform: translateY(-3vh);
+    height: 80%;
   }
 
   display: flex;

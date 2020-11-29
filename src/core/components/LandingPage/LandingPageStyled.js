@@ -6,6 +6,8 @@ export const PageBackground = styled.div`
   display: flex;
   width: 100vw;
   height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
