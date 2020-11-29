@@ -60,6 +60,7 @@ export const MotionCardDiv = styled(motion.div)`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  -webkit-tap-highlight-color: transparent;
   user-select: none;
 
   background: rgb(242, 242, 242);
@@ -87,6 +88,7 @@ export const MotionCardExit = styled(motion.h1)`
   right: 13px;
   margin-top: 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   user-select: none;
 `;
 

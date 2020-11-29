@@ -21,6 +21,8 @@ export const MotionCardDiv = styled(motion.div)`
   &:hover {
     cursor: pointer;
   }
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
 
   @media (max-width: 1000px) {
     width: 100%;
@@ -37,7 +39,6 @@ export const MotionCardDiv = styled(motion.div)`
 
 export const MotionCardHeader = styled(motion.h1)`
   font-size: auto;
-  user-select: none;
 `;
 
 export const MotionCardDes = styled(motion.div)`
@@ -55,7 +56,6 @@ export const MotionCardDes = styled(motion.div)`
   height: 100%;
   margin: 0px;
   padding: 0px;
-  user-select: none;
 
   overflow: scroll;
   ::-webkit-scrollbar {
