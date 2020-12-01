@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bf40d0b.chunk.css",
-    "main.js": "/static/js/main.556dcc28.chunk.js",
-    "main.js.map": "/static/js/main.556dcc28.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.2ca0876f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.2ca0876f.js.map",
-    "static/js/2.20f6db7c.chunk.js": "/static/js/2.20f6db7c.chunk.js",
-    "static/js/2.20f6db7c.chunk.js.map": "/static/js/2.20f6db7c.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8b97bb6717bf46af3baf504928a590f2.js": "/precache-manifest.8b97bb6717bf46af3baf504928a590f2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.8bf40d0b.chunk.css.map": "/static/css/main.8bf40d0b.chunk.css.map",
-    "static/js/2.20f6db7c.chunk.js.LICENSE.txt": "/static/js/2.20f6db7c.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/CircularStd-Light.0d87e691.otf",
-    "static/media/resume.pdf": "/static/media/resume.70cf25f4.pdf"
+    "main.css": "/zenanana/zenanana.github.io/static/css/main.373a2fca.chunk.css",
+    "main.js": "/zenanana/zenanana.github.io/static/js/main.e04cfbf6.chunk.js",
+    "main.js.map": "/zenanana/zenanana.github.io/static/js/main.e04cfbf6.chunk.js.map",
+    "runtime-main.js": "/zenanana/zenanana.github.io/static/js/runtime-main.bf9042c3.js",
+    "runtime-main.js.map": "/zenanana/zenanana.github.io/static/js/runtime-main.bf9042c3.js.map",
+    "static/js/2.b18a9e91.chunk.js": "/zenanana/zenanana.github.io/static/js/2.b18a9e91.chunk.js",
+    "static/js/2.b18a9e91.chunk.js.map": "/zenanana/zenanana.github.io/static/js/2.b18a9e91.chunk.js.map",
+    "index.html": "/zenanana/zenanana.github.io/index.html",
+    "precache-manifest.01564e5515642a8968f1f2f3dea7dffe.js": "/zenanana/zenanana.github.io/precache-manifest.01564e5515642a8968f1f2f3dea7dffe.js",
+    "service-worker.js": "/zenanana/zenanana.github.io/service-worker.js",
+    "static/css/main.373a2fca.chunk.css.map": "/zenanana/zenanana.github.io/static/css/main.373a2fca.chunk.css.map",
+    "static/js/2.b18a9e91.chunk.js.LICENSE.txt": "/zenanana/zenanana.github.io/static/js/2.b18a9e91.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/zenanana/zenanana.github.io/static/media/CircularStd-Light.0d87e691.otf",
+    "static/media/resume.pdf": "/zenanana/zenanana.github.io/static/media/resume.70cf25f4.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ca0876f.js",
-    "static/js/2.20f6db7c.chunk.js",
-    "static/css/main.8bf40d0b.chunk.css",
-    "static/js/main.556dcc28.chunk.js"
+    "static/js/runtime-main.bf9042c3.js",
+    "static/js/2.b18a9e91.chunk.js",
+    "static/css/main.373a2fca.chunk.css",
+    "static/js/main.e04cfbf6.chunk.js"
   ]
 }
