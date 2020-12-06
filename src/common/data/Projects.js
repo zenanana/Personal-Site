@@ -9,6 +9,15 @@ export const projectsList = [
     githubLink: "https://github.com/zenanana/DispersalApp",
   },
   {
+    header: "DeepL Textractor",
+    description:
+      "Developed Python programme leveraging DeepL's free browser translation service (DeepL's API is paid) to provide top-notch translation for 10 supported languages. Simply copy a selection of text onto your clipboard and the translated result will be automatically shown in the browser.",
+    bgImagePath: "./images/backgrounds/projects/deepl.png",
+    org: "",
+    github: false,
+    githubLink: "https://github.com/zenanana",
+  },
+  {
     header: "Personal Website",
     description:
       "Developed this personal website with React for front end and hosted via Heroku. Made use of Styled Components for CSS, Framer Motion for animations and React Router for routing. Forms, state management and other features all done by hard code to minimise dependencies.",

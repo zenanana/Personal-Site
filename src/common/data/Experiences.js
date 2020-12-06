@@ -65,13 +65,13 @@ export const experiencesList = [
   {
     type: "Languages",
     header: "HTML",
-    description: "I have wwalked in the Hanging Gardens of Babylon",
+    description: "Lorem Ipsum",
     bgImagePath: "./images/logos/languages/html.png",
   },
   {
     type: "Languages",
     header: "CSS",
-    description: "संस्कृत",
+    description: "Lorem Ipsum",
     bgImagePath: "./images/logos/languages/css.png",
   },
   {
