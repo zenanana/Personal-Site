@@ -3,14 +3,14 @@ export const experiencesList = [
     type: "Technologies",
     header: "Angular 2",
     description:
-      "I have been working with Angular 2 for more than a year and have a proficient understanding of RxJs, NgRx, Angular Universal and other popular Angular 2 technologies",
+      "I have been working with Angular 2 for more than 2 years and have a proficient understanding of RxJs, NgRx, Angular Universal and other popular Angular 2 technologies",
     bgImagePath: "./images/logos/technologies/angular2.png",
   },
   {
     type: "Technologies",
     header: "React",
     description:
-      "I have been working with React for over a year and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router, Styled Components and Framer Motion",
+      "I have been working with React for over 2 years and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router, Styled Components and Framer Motion",
     bgImagePath: "./images/logos/technologies/react.png",
   },
   {
@@ -24,8 +24,15 @@ export const experiencesList = [
     type: "Technologies",
     header: "Firebase",
     description:
-      "I use Firebase frequently as a BaaS and am experienced with its hosting, database options and cloud functions offerings.",
+      "I use Firebase frequently as a BaaS and am experienced with its hosting, database options and cloud functions offerings",
     bgImagePath: "./images/logos/technologies/firebase.png",
+  },
+  {
+    type: "Technologies",
+    header: "AWS",
+    description:
+      "Having utilised AWS for static and dynamic website hosting before, I am familiar with AWS services such as S3, EC2 and Elastic Beanstalk",
+    bgImagePath: "./images/logos/technologies/aws.png",
   },
   {
     type: "Technologies",
@@ -50,30 +57,31 @@ export const experiencesList = [
   },
   {
     type: "Languages",
-    header: "Python",
-    description:
-      "I have two years of Python experience, having utilised it for machine learning with TensorFlow and data science with Pandas and NumPy",
-    bgImagePath: "./images/logos/languages/python.png",
-  },
-  {
-    type: "Languages",
-    header: "Go",
-    description:
-      "I have a basic understanding and some experience with Go, having used it for data structures and algorithms",
-    bgImagePath: "./images/logos/languages/golanga.png",
-  },
-  {
-    type: "Languages",
-    header: "HTML",
-    description: "Lorem Ipsum",
+    header: "HTML5",
+    description: "",
     bgImagePath: "./images/logos/languages/html.png",
   },
   {
     type: "Languages",
     header: "CSS",
-    description: "Lorem Ipsum",
+    description: "",
     bgImagePath: "./images/logos/languages/css.png",
   },
+  {
+    type: "Languages",
+    header: "Python",
+    description:
+      "I have two years of Python experience, having utilised it for machine learning with TensorFlow, data science with Pandas and NumPy, and web-automating with Selenium",
+    bgImagePath: "./images/logos/languages/python.png",
+  },
+  // {
+  //   type: "Languages",
+  //   header: "Go",
+  //   description:
+  //     "I have a basic understanding and some experience with Go, having used it for data structures and algorithms",
+  //   bgImagePath: "./images/logos/languages/golanga.png",
+  // },
+
   {
     type: "Recreation",
     header: "Social Work",
@@ -83,10 +91,10 @@ export const experiencesList = [
   },
   {
     type: "Recreation",
-    header: "Drama",
+    header: "Scouting",
     description:
-      "An executive community member for my high school's drama club, my passion for theater has brought me to work at the Esplanade Theaters and compete in inter-school and national competitions",
-    bgImagePath: "./images/logos/recreation/drama.png",
+      "I have a Scout for 4 years, a Venture for 2 and have led my own patrol back in high school. I have experience working with other scouts towards common goals and am a team player",
+    bgImagePath: "./images/logos/recreation/scouting.png",
   },
   {
     type: "Recreation",
@@ -104,10 +112,10 @@ export const experiencesList = [
   },
   {
     type: "Recreation",
-    header: "Scouting",
+    header: "Drama",
     description:
-      "I have a Scout for 4 years, a Venture for 2 and have led my own patrol back in high school. I have experience working with other scouts towards common goals and am a team player.",
-    bgImagePath: "./images/logos/recreation/scouting.png",
+      "An executive community member for my high school's drama club, my passion for theater has brought me to work at the Esplanade Theaters and compete in inter-school and national competitions",
+    bgImagePath: "./images/logos/recreation/drama.png",
   },
 ];
 
