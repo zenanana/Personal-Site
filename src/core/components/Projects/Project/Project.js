@@ -26,6 +26,7 @@ const Project = (props) => {
           onClick={() => {
             changeModalOpacity(1);
             changeModalVisibility("visible");
+            props.setModalState(true);
           }}
         >
           <h2>{props.header}</h2>
@@ -38,6 +39,7 @@ const Project = (props) => {
           e.stopPropagation();
           changeModalOpacity(0);
           changeModalVisibility("hidden");
+          props.setModalState(false);
         }}
       >
         <Styled.ModalDiv
@@ -50,6 +52,7 @@ const Project = (props) => {
               e.stopPropagation();
               changeModalOpacity(0);
               changeModalVisibility("hidden");
+              props.setModalState(false);
             }}
             initial={{ opacity: 0.6 }}
             whileHover={{ opacity: 1 }}

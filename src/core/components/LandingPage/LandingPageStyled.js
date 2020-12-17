@@ -27,8 +27,11 @@ export const MotionHi = styled(motion.h1)`
   margin: 0;
 `;
 
-export const MotionLink = styled(motion.span)``;
-
 export const CustomLink = styled(Link)`
   color: grey;
+  font: normal normal bolder 16px/30px monospace;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 `;

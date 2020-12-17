@@ -35,29 +35,29 @@ const LandingPage = (props) => {
           transition={{ duration: 1 }}
         >
           <p>
-            My name is <strong>Zenan</strong>. I am a software engineer from
-            Singapore with more than 3 years of experience.
+            My name is{" "}
+            <strong
+              style={{ font: "normal normal bolder 16px/30px monospace" }}
+            >
+              Zenan
+            </strong>
+            . I am a software engineer from Singapore with more than 3 years of
+            experience.
             <br></br>
             <br></br>
             Check out my{" "}
-            <Styled.MotionLink>
-              <strong>
-                <Styled.CustomLink to="/projects">Projects</Styled.CustomLink>
-              </strong>
-            </Styled.MotionLink>{" "}
+            <strong>
+              <Styled.CustomLink to="/projects">Projects</Styled.CustomLink>
+            </strong>{" "}
             ,{" "}
             <strong>
-              <Styled.MotionLink>
-                <Styled.CustomLink to="/skills">Skills</Styled.CustomLink>
-              </Styled.MotionLink>
+              <Styled.CustomLink to="/skills">Skills</Styled.CustomLink>
             </strong>{" "}
             and{" "}
             <strong>
-              <Styled.MotionLink>
-                <Styled.CustomLink onClick={openResume} to="">
-                  Resume
-                </Styled.CustomLink>
-              </Styled.MotionLink>
+              <Styled.CustomLink onClick={openResume} to="">
+                Resume
+              </Styled.CustomLink>
             </strong>
           </p>
         </Styled.DescriptionBox>
