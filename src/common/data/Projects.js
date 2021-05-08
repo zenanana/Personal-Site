@@ -20,7 +20,7 @@ export const projectsList = [
   {
     header: "Personal Website",
     description:
-      "Developed this personal website with React for front end and hosted via Heroku. Made use of Styled Components for CSS, Framer Motion for animations and React Router for routing. Forms, state management and other features all done by hard code to minimise dependencies.",
+      "Developed this personal website with React for front end and hosted via GitHub Pages. Made use of Styled Components for CSS, Framer Motion for animations and React Router for routing. Forms, state management and other features all done by hard code to minimise dependencies.",
     bgImagePath: "./images/backgrounds/projects/personalwebsite.png",
     org: "",
     github: false,
