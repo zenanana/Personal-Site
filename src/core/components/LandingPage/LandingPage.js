@@ -41,7 +41,7 @@ const LandingPage = (props) => {
             >
               Zenan
             </strong>
-            . I am a software engineer from Singapore with more than 3 years of
+            . I am a software engineer in Singapore with more than 3 years of
             experience.
             <br></br>
             <br></br>
