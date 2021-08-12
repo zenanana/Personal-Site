@@ -103,8 +103,11 @@ export const MotionImageOverlay = styled(motion.div)`
   opacity: 0;
   position: absolute;
   cursor: pointer;
+  margin: 0px;
+  padding: 0px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 `;

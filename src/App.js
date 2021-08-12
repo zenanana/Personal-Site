@@ -23,7 +23,7 @@ const App = (props) => {
             <Header></Header>
             <Resume></Resume>
           </Route>
-          <Route path="/projects">
+          <Route path="/experience">
             <Header></Header>
             <Projects></Projects>
           </Route>

@@ -6,7 +6,7 @@ import { projectsList } from "../../../common/data/Projects";
 
 const Projects = (props) => {
   useEffect(() => {
-    document.title = "Projects | Portfolio of Zenan Han";
+    document.title = "Experience | Portfolio of Zenan Han";
   }, []);
 
   const [modalState, setModalState] = useState(false);
@@ -31,6 +31,8 @@ const Projects = (props) => {
                 org={projectObj.org}
                 github={projectObj.github}
                 githubLink={projectObj.githubLink}
+                website={projectObj.website}
+                websiteLink={projectObj.websiteLink}
                 setModalState={setModalState}
               ></Project>
             );

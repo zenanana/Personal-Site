@@ -1,4 +1,3 @@
-// import { AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 
 import * as Styled from "./ProjectStyled";
@@ -29,6 +28,13 @@ const Project = (props) => {
             props.setModalState(true);
           }}
         >
+          {
+            (() => {
+              if (props.org) {
+                return (<h3>{props.org}</h3>)
+              }
+            })()
+          }
           <h2>{props.header}</h2>
         </Styled.MotionImageOverlay>
       </Styled.MotionCardDiv>
@@ -68,7 +74,15 @@ const Project = (props) => {
             ></img>
           </Styled.ModalDivImage>
           <Styled.ModalDivDescription>
-            <h4 style={{ margin: 0 }}>{props.org}</h4>
+            {
+              props.website ?
+              (
+                <h3 style={{ margin: 0 }}><a href={ props.websiteLink } target="_blank" style={{ color: "black" }}>{props.org}</a></h3>
+              ) :
+              (
+                <h3 style={{ margin: 0 }}>{props.org}</h3>
+              )
+            }
             <h1 style={{ margin: 0 }}>
               {props.header}{" "}
               {props.github ? (
