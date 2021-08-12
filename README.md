@@ -7,13 +7,13 @@ Zenan's personal website!
 
 # Instructions for GitHub Pages
 ## GitHub Pages Deployment Instructions
-Deploy to GitHub Pages
+1. Deploy to GitHub Pages
 ```
 npm run deploy
 ```
 
 ## GitHub Pages Configuration for Single Page Application support
-Add the following to the header in ```index.html```
+1. Add the following to the header in ```index.html```
 ``` HTML
 <script type="text/javascript">
     // Single Page Apps for GitHub Pages
@@ -38,8 +38,9 @@ Add the following to the header in ```index.html```
     }(window.location))
   </script>
   ```
+<br>
 
-Create ```404.html``` in the root folder with the following:
+2. Create ```404.html``` in the root folder with the following:
 ``` HTML
 <!DOCTYPE html>
 <html>
@@ -82,3 +83,7 @@ Create ```404.html``` in the root folder with the following:
   </body>
 </html>
 ```
+<br>
+
+3. Add custom domain in the repoitory settings:
+![Custom Domain Settings](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2eac9e9c-8ced-4ca3-9ef2-89d285d5b5fb/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210812T064221Z&X-Amz-Expires=86400&X-Amz-Signature=4221dcadd75ddb0d2fa3929870a1d81d4f5d7d830caf9a56b1d825f991086bea&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
