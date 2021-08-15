@@ -94,7 +94,7 @@ export const experiencesList = [
     type: "Recreation",
     header: "Scouting",
     description:
-      "I have a Scout for 4 years, a Venture for 2 and have led my own patrol back in high school. I have experience working with other scouts towards common goals and have been trained in working in teams.",
+      "I was a Scout for 4 years, a Venture for 2 and have led my own patrol back in high school. I have experience working with other scouts towards common goals and have been trained in working in teams.",
     bgImagePath: "./images/logos/recreation/scouting.png",
   },
   {
