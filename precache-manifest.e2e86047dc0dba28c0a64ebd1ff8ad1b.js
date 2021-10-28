@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a2ca8a8f4bb8728052e24fd8108a5ad",
+    "revision": "153d9e19d4c6f258f43e7a1fce1736c7",
     "url": "/index.html"
   },
   {
-    "revision": "04d7059096a251a8d328",
-    "url": "/static/css/main.24f0f74e.chunk.css"
+    "revision": "cd6c92314dc70fa37065",
+    "url": "/static/css/main.8bf40d0b.chunk.css"
   },
   {
     "revision": "8780c8c31d352bdff7e1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.20f6db7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04d7059096a251a8d328",
-    "url": "/static/js/main.09a8c5c0.chunk.js"
+    "revision": "cd6c92314dc70fa37065",
+    "url": "/static/js/main.ec65be51.chunk.js"
   },
   {
     "revision": "b63a4b8ca5166987a4a7",
@@ -28,7 +28,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/CircularStd-Light.0d87e691.otf"
   },
   {
-    "revision": "f6bd65f5dcc61cd9625cc373596f3d38",
-    "url": "/static/media/resume.f6bd65f5.pdf"
+    "revision": "2aa1b06e3578928f4f4237425d6c1863",
+    "url": "/static/media/resume.2aa1b06e.pdf"
   }
 ]);
