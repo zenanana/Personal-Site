@@ -41,7 +41,7 @@ const LandingPage = (props) => {
             >
               Zenan
             </strong>
-            . I am a software engineer based in Berkeley, CA with more than 3 years of
+            . I am a software engineer based in Berkeley, CA with more than 4 years of
             experience.
             <br></br>
             <br></br>
