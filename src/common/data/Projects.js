@@ -33,6 +33,17 @@ export const projectsList = [
     websiteLink: "",
   },
   {
+    header: "Star Whales",
+    description:
+      "Developed a motion-tracker game in 48 hours for the CalHacks 2021 hackathon. Utilized motion-tracking models and Planck.js physics library. Try it out!",
+    bgImagePath: "./images/backgrounds/projects/starwhales.png",
+    org: "Play Here!",
+    github: true,
+    githubLink: "https://github.com/zenanana/Star-Whales",
+    website: true,
+    websiteLink: "https://zenanana.github.io/Star-Whales/",
+  },
+  {
     header: "Personal Website",
     description:
       "Developed this personal website with React for front-end and hosted via GitHub Pages. Made use of Styled Components for CSS, Framer Motion for animations and React Router.",
