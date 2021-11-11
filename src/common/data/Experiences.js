@@ -3,7 +3,7 @@ export const experiencesList = [
     type: "Technologies",
     header: "React",
     description:
-      "I have been working with React for over 2 years and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router and React Testing Library. I work with both class-based and functional components.",
+      "I have been working with React for over 4 years and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router and React Testing Library. I work with both class-based and functional components.",
     bgImagePath: "./images/logos/technologies/react.png",
   },
   {
