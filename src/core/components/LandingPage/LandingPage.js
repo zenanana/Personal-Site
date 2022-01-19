@@ -58,7 +58,7 @@ const LandingPage = (props) => {
               {/* <Styled.CustomLink onClick={openResume} to="">
                 Resume
               </Styled.CustomLink> */}
-              <Styled.CustomLink onClick={() => window.open("https://drive.google.com/file/d/1JJio8o62wRhsbTfra5PClQCcUu_neeK3/view?usp=sharing", "_blank")}>
+              <Styled.CustomLink onClick={() => window.open("https://drive.google.com/file/d/1kVRdmd4aZ2hTCL2YnJYjMbVXqo2Aj6RC/view?usp=sharing", "_blank")}>
                 Resume
               </Styled.CustomLink>
             </strong>
