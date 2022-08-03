@@ -3,7 +3,7 @@ export const experiencesList = [
     type: "Technologies",
     header: "React",
     description:
-      "I have been working with React for over 4 years and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router and React Testing Library. I work with both class-based and functional components.",
+      "I have been working with React for over 5 years and am familiar with the most recent libraries in the ecosystem, such as Redux, React-Router and React Testing Library. I work with both class-based and functional components.",
     bgImagePath: "./images/logos/technologies/react.png",
   },
   {
@@ -46,15 +46,36 @@ export const experiencesList = [
     type: "Languages",
     header: "JavaScript",
     description:
-      "I have the most experience with vanilla JavaScript, having used it for over 3 years for web development and basic game development. I am familiar with the most recent features, such as ES6 syntax, and have a deep understanding of its workings (type coercion, closures, etc.)",
+      "I have the most experience with vanilla JavaScript/TypeScript, having used it for over 4 years for web development, basic game development, and during my internships with Amazon Web Services. I am familiar with the most recent features, such as ES6 syntax, and have a deep understanding of its workings (type coercion, closures, etc.)",
     bgImagePath: "./images/logos/languages/javascript.png",
   },
   {
     type: "Languages",
     header: "TypeScript",
     description:
-      "Having worked with front-end frameworks such as Angular 2 and React, I am proficient in TypeScript.",
+      "Having worked with front-end frameworks such as Angular 2 and React professionally, I am proficient in TypeScript.",
     bgImagePath: "./images/logos/languages/typescript.png",
+  },
+  {
+    type: "Languages",
+    header: "C++",
+    description:
+      "I am proficient in C++, having used it for competitive programming for 1 year.",
+    bgImagePath: "./images/logos/languages/cpp.png",
+  },
+  {
+    type: "Languages",
+    header: "Java",
+    description:
+      "I am familiar with Java syntax and Object-Oriented Programming, having used it as my language of choice during my start in competitive programming.",
+    bgImagePath: "./images/logos/languages/java.png",
+  },
+  {
+    type: "Languages",
+    header: "Python",
+    description:
+      "I have 2 years of Python experience, having utilized it for machine learning with TensorFlow, data science with Pandas and NumPy, and web-automating with Selenium",
+    bgImagePath: "./images/logos/languages/python.png",
   },
   {
     type: "Languages",
@@ -68,26 +89,12 @@ export const experiencesList = [
     description: "",
     bgImagePath: "./images/logos/languages/css.png",
   },
-  {
-    type: "Languages",
-    header: "Java",
-    description:
-      "I am familiar with Java syntax and Object-Oriented Programming, having used it as my language of choice during my start in competitive programming.",
-    bgImagePath: "./images/logos/languages/java.png",
-  },
-  {
-    type: "Languages",
-    header: "Python",
-    description:
-      "I have two years of Python experience, having utilised it for machine learning with TensorFlow, data science with Pandas and NumPy, and web-automating with Selenium",
-    bgImagePath: "./images/logos/languages/python.png",
-  },
 
   {
     type: "Recreation",
     header: "Social Work",
     description:
-      "I have done social work with children of autism as a teacher and researcher for more than 3 years and am passionate about improving their integration into society from a young age.",
+      "I have done social work with children with autism as a teacher and researcher for more than 3 years and am passionate about improving their integration into society from a young age.",
     bgImagePath: "./images/logos/recreation/social.png",
   },
   {

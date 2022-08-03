@@ -1,6 +1,17 @@
 export const projectsList = [
   {
-    header: "Full Stack Intern",
+    header: "Software Engineering Intern",
+    description:
+      "Worked on soon-to-be-released version of AWS Connect's Contact Flow Editor using React.js & Lit for frontend and Java for backend. Owned and implemented numerous customer-requested features, such as version management and advanced undo/redo functionalities. Also adhered to strict testing and development standards, reaching 100% unit test coverage for all implemented functionalities and code.",
+    bgImagePath: "./images/backgrounds/projects/amazonconnect.png",
+    org: "Amazon Web Services",
+    github: false,
+    githubLink: "",
+    website: true,
+    websiteLink: "https://aws.amazon.com/connect/",
+  },
+  {
+    header: "Software Engineering Intern",
     description:
       "Worked with React, MongoDB and Node.js to improve and maintain educational web applications which analyse and organize users’ learning statistics for employers to view in real-time. Implemented new features such as template sharing, geofencing and user-customizable Open Graph settings for templates. Spearheaded testing switch from end-to-end to integration testing with Jest and React Testing Library. Promptly addressed production bugs when on standby.",
     bgImagePath: "./images/backgrounds/projects/arclab.png",
@@ -24,7 +35,7 @@ export const projectsList = [
   {
     header: "DeepL Textractor",
     description:
-      "Developed Python program leveraging DeepL's free browser translation service to provide improved user-experience for machine translations. Supporting 10 languages, anything copied to users’ clipboards is automatically translated within 0.5 seconds.",
+      "Developed Python program leveraging DeepL's free browser translation service to provide improved user-experience for machine translations. Supporting 10 languages, anything copied to users' clipboards is automatically translated within 0.5 seconds.",
     bgImagePath: "./images/backgrounds/projects/deepl.png",
     org: "",
     github: true,
